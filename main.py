@@ -1,6 +1,9 @@
 import urllib.request
 import time, os
 
+arr_url = ['http://btcatm.cafe24.com/api_provider/cron/status_subscriptions',
+           'http://btcatm.cafe24.com/api_provider/cron/status',
+           'http://btcatm.cafe24.com/api_provider/cron/order']
 url1 = os.environ["URL1"]
 url2 = os.environ["URL2"]
 url3 = os.environ["URL3"]
