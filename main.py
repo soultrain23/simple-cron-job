@@ -1,9 +1,10 @@
 import urllib.request
 import time, os
 
-
-arr_url = os.environ["TARGET_URLS"]
-
+url1 = os.environ["URL1"]
+url2 = os.environ["URL2"]
+url3 = os.environ["URL3"]
+arr_url = [url1, url2, url3, ]
 while(True):
     try:
         for url_ in arr_url:
