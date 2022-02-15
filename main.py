@@ -3,6 +3,7 @@ import time, os
 
 
 arr_url = os.environ["TARGET_URLS"]
+
 while(True):
     try:
         for url_ in arr_url:
