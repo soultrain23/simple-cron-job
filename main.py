@@ -18,11 +18,11 @@ while(True):
     try:
         now_hour = int(str(datetime.datetime.now())[11:13])
         if 2 <= now_hour < 7:
-            time.sleep(60 * 10)
-        elif 15 <= now_hour < 18:
-            time.sleep(60 * 10)
-        else:
             time.sleep(60 * 5)
+        elif 15 <= now_hour < 18:
+            time.sleep(60 * 5)
+        else:
+            time.sleep(60 * 2.5)
     except Exception as e:
         print(e)
     time.sleep(1)
