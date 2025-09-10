@@ -50,6 +50,8 @@ while (True):
             time.sleep(5)
     except Exception as e:
         print(e)
+    time.sleep(60 * 1)
+    '''
     try:
         now_hour = int(str(datetime.datetime.now())[11:13])
         if 2 <= now_hour < 7:
@@ -61,3 +63,5 @@ while (True):
     except Exception as e:
         print(e)
     time.sleep(1)
+    '''
+
